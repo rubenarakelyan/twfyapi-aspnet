@@ -55,7 +55,7 @@ namespace OAAPI
             StringBuilder result = new StringBuilder();
             byte[] buf = new byte[8192];
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.UserAgent = "OpenAustralia.org.au API C# interface (+https://github.com/rubenarakelyan/twfyapi)";
+            request.UserAgent = "OpenAustralia.org.au API C# interface (+https://github.com/rubenarakelyan/twfyapi-aspnet)";
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Stream responseStream = response.GetResponseStream();
             int count = 0;

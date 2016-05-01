@@ -55,7 +55,7 @@ namespace TWFYAPI
             StringBuilder result = new StringBuilder();
             byte[] buf = new byte[8192];
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.UserAgent = "TheyWorkForYou.com API C# interface (+https://github.com/rubenarakelyan/twfyapi)";
+            request.UserAgent = "TheyWorkForYou.com API C# interface (+https://github.com/rubenarakelyan/twfyapi-aspnet)";
             request.MaximumAutomaticRedirections = 1;
             request.AllowAutoRedirect = true;
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
