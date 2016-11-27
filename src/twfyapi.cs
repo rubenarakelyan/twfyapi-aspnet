@@ -76,7 +76,7 @@ namespace TWFYAPI
 
     public class TWFYAPI_Request
     {
-        private String url = "http://www.theyworkforyou.com/api/";
+        private String url = "https://www.theyworkforyou.com/api/";
         private String func;
         private String[] args;
         private String api_key;
